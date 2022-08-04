@@ -1,0 +1,13 @@
+fun main(){
+    val openHours = 2
+    val now = 2
+    val office : String
+    office = if (now > 7){
+        "office already open"
+    }else if(now == openHours){
+        "Wait a minute, office will be open"
+    }else{
+        "Office is Closed"
+    }
+    print(office)
+}
