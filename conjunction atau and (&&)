@@ -1,0 +1,9 @@
+fun main(){
+    val officeopen = 7
+    val officeclosed =3
+    val now =20
+
+    val isopen = now >= officeopen && now <= officeclosed
+
+    print("office is open : $isopen")
+}
