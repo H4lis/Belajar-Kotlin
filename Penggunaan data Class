@@ -1,0 +1,11 @@
+class User(val name : String, val age : Int)
+
+data class DataUser(val name: String, val age : Int)
+
+fun main(){
+    val User= User("nhrohmen", 17)
+    val DataUser = DataUser("nrohmen", 17)
+
+    println(User)
+    println(DataUser)
+}
